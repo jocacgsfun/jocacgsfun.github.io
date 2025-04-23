@@ -292,6 +292,34 @@ html, body {
     font-weight: bold;
   }
   
+  
+  .playlistDiv {
+    background-color: #2c2c2c;
+    height: 110px;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+
+  .playlistDiv > h1 {
+    font-size: 24px;
+  }
+
+  
+  .add-song-button {
+      background-color: white;
+      border: none;
+      color: black;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 15px;
+      width: 170px;
+      height: 30px;
+      font-weight: bold;
+      margin-top: 10px;
+      box-shadow: 0px 0px 10px;
+    }
 
   @media screen and (max-width: 640px) {
     .searchdiv{
@@ -343,10 +371,14 @@ html, body {
     .leftdiv-body1 {
       height: 160px;
     }
-  
-}
-@media screen and (min-width: 640px) and (max-width: 950px) {
-  .leftdiv-body1 {
+    
+
+
+      
+      
+    }
+    @media screen and (min-width: 640px) and (max-width: 950px) {
+      .leftdiv-body1 {
     height: 160px;
   }
 }
