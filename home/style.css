@@ -295,16 +295,34 @@ html, body {
   
   .playlistDiv {
     background-color: #2c2c2c;
-    height: 110px;
+    height: 380px;
     border-radius: 10px;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
+
   }
 
   .playlistDiv > h1 {
     font-size: 24px;
+    flex-grow: 1;
   }
+
+  .musicDiv {
+    margin-top: 10px;
+    background-color: #3a3a3a;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;  /* Ensure this is set to row */
+    justify-content: flex-start;  /* Align items in a row from the start */
+    align-items: center;  /* Center the items vertically */
+}
+
+.musicDiv iframe {
+    margin-right: 10px;  /* Optional: space between iframe and other content */
+}
 
   
   .add-song-button {
